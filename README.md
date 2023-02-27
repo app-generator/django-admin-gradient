@@ -163,14 +163,16 @@ In a similar way, all other files and components can be customized easily.
 
 <br />
 
-## PRO Version
+## [Gradient Able](https://appseed.us/product/gradient-able-pro/django/) `PRO Version`
 
-> For more components, pages and priority on support, feel free to take a look at this amazing starter:
+> For more components, pages and priority on support, feel free to take a look at this **Django** starter:
 
-Designed for those who like bold elements and beautiful websites, **Gradient Able** is the most stylish Bootstrap 4 Admin Template compare to all other Bootstrap admin templates. It comes with high feature-rich pages and components with fully developer-centric code. 
+Designed for those who like bold elements and beautiful websites, **[Gradient Able](https://appseed.us/product/gradient-able-pro/django/)** is the most stylish Admin Design compare to all other Bootstrap Templates. 
+It comes with high feature-rich pages and components with fully developer-centric code. 
 
-- 👉 [Django Gradient PRO](https://appseed.us/product/gradient-able-pro/django/) - product page
-- 👉 [Django Gradient PRO](https://django-gradient-able-pro.appseed-srv1.com) - LIVE Deployment
+- [Gradient Datta PRO](https://appseed.us/product/datta-able-pro/django/) - product page
+  - `Enhanced UI` - more pages and components
+  - `Priority` on support
 
 <br >
 
