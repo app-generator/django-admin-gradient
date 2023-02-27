@@ -148,7 +148,7 @@ For instance, if we want to customize the `index.html` these are the steps:
 - `Step 2`: configure the project to use this new template directory
   - Edit `settings.py` TEMPLATES section 
 - `Step 3`: copy the `footer.html` from the original location (inside your ENV) and save it to the `YOUR_APP/templates` DIR
-  - Source PATH: `<YOUR_ENV>/LIB/admin_datta/templates/pages/index.html`
+  - Source PATH: `<YOUR_ENV>/LIB/admin_gradient/templates/pages/index.html`
   - Destination PATH: `YOUR_APP/templates/pages/index.html`
 - Edit the `index.html` (Destination PATH)     
 
