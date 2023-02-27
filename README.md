@@ -7,10 +7,6 @@ an open-source `Bootstrap` design from [CodedThemes](https://bit.ly/37fF9RT).
 
 <br />
 
-> UI Kit: https://github.com/codedthemes/gradient-able-free-bootstrap-admin-template
-
-<br />
-
 **Links & Resources**
 
 - [Django Gradient Able](https://appseed.us/product/gradient-able/django/) - `Product page`
