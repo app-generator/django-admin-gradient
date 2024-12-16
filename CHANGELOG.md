@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [1.0.4] 2024-12-16
+### Changes
+
+- Mention [Django App Generator - Gradient Design](https://app-generator.dev/tools/django-generator/gradient/)
+
 ## [1.0.3] 2024-11-16
 ### Changes
 
