@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## [1.0.5] 2025-04-24
+### [Gradient Able](https://app-generator.dev/product/gradient-able/) Django Library Changes
+
+- Update Sidebar Items 
+- Remove `login_required` decorator for theme pages
+- Update RM Links
+  - [Gradient Able](https://app-generator.dev/product/gradient-able/) Design 
+  - [CodedThemes](https://app-generator.dev/agency/codedthemes/) Agency
+
 ## [1.0.4] 2024-12-16
 ### Changes
 

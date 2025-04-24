@@ -33,26 +33,18 @@
                         <div class="pro-head">
                             <img src="{% static 'assets/images/user/avatar-1.jpg' %}" class="img-radius"
                                 alt="User-Profile-Image">
-                            <span>John Doe</span>
+                                {% if request.user.is_authenticated %}
+                                    <span>{{ request.user.username }}</span>
+                                {% else %}
+                                    <span>Guest</span>
+                                {% endif %}
                         </div>
                         <ul class="pro-body">
-                            <li class="bg-transparent mb-2 ms-3">
-                                <a target="_blank" href="https://appseed.us/support/">
-                                    <span class="badge bg-primary">Support</span>
-                                </a>
-                            </li>
                             {% if request.user.is_authenticated %}
-                                {% if request.user.is_superuser %}
-                                <li><a href="{% url 'admin:password_change' %}" class="dropdown-item">
-                                    <i class="feather icon-lock"></i> Change Password</a></li>
-                                <li><a href="{% url 'admin:logout' %}" class="dropdown-item"><i
-                                            class="feather icon-lock"></i> Logout</a></li>
-                                {% else %}
                                 <li><a href="{% url 'password_change' %}" class="dropdown-item">
                                     <i class="feather icon-lock"></i> Change Password</a></li>
                                 <li><a href="{% url 'logout' %}" class="dropdown-item"><i
                                             class="feather icon-lock"></i> Logout</a></li>
-                                {% endif %}                            
                             {% else %}
                                 <li><a href="{% url 'auth_signin' %}" class="dropdown-item"><i
                                     class="feather icon-log-in"></i> Sign IN</a></li>

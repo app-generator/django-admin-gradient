@@ -48,31 +48,25 @@ def user_logout_view(request):
   logout(request)
   return redirect('/accounts/auth-signin/')
 
-
 # Dashboard
 def index(request):
     return render(request, 'pages/index.html')
 
 # UI Element
-@login_required(login_url='/accounts/auth-signin')
 def bc_typography(request):
     return render(request, 'pages/bc_typography.html')
 
-@login_required(login_url='/accounts/auth-signin')
 def icon_feather(request):
     return render(request, 'pages/icon-feather.html')
 
 # Table
-@login_required(login_url='/accounts/auth-signin')
 def tbl_bootstrap(request):
     return render(request, 'pages/tbl_bootstrap.html')
 
 # Chart & Maps
-@login_required(login_url='/accounts/auth-signin')
 def chart_apex(request):
     return render(request, 'pages/chart-apex.html')
 
-@login_required(login_url='/accounts/auth-signin')
 def map_google(request):
     return render(request, 'pages/map-google.html')
 
@@ -82,6 +76,5 @@ def map_google(request):
 def user_profile(request):
     return render(request, 'pages/user-profile.html')
     
-@login_required(login_url='/accounts/auth-signin')
 def sample_page(request):
     return render(request, 'pages/sample-page.html')
